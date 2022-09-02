@@ -1,0 +1,49 @@
+Wegorz
+Icon: Bolt
+Color: Rose
+Name: "Ultra Drunken Fire"
+Effects needed: Movement controls reversed
+
+	Start Transforming Throttle(Event Player, 1, 1, World Vector Of(Backward, Event Player, Rotation));
+
+
+
+
+
+variables
+{
+	global:
+		0: CPposition
+		1: Radius_VA_GoBackCP
+		2: Connections
+		3: Mission
+		4: Prime
+		5: AbilityCount
+		6: HiddenCP_TpRad_TT
+		7: TP
+		8: Effect
+}
+
+actions
+{
+	Global.CPposition = Array(Vector(29.280, 10.460, -3.855), Vector(62.480, 6.088, -1.992), Vector(49.334, 14.557, 17.960), Vector(
+		-9.570, 1, 6.957), Vector(11.938, 11.701, 16.731), Vector(-14.021, 3, -43.671), Vector(11.614, 7.261, -49.704), Vector(46.100,
+		6, -12.597), Vector(14.015, 6.755, -19.713), Vector(28.570, 10.440, 4.128), Vector(-21.720, 4, -58.826), Vector(-2.961, 2.540,
+		-82.506), Vector(-10.226, 5, -36.971), Vector(14.934, -1.337, 39.324), Vector(34.776, 13.953, 22.430));
+	Global.Radius_VA_GoBackCP = Array(Vector(2.528, 0, -1), Vector(4.048, -24.675, 0), Vector(1.376, -121.003, 1), Vector(2.064,
+		41.457, 2), Vector(3.328, -169.052, 3), Vector(2.560, 39.869, 4), Vector(3.664, 10.860, 5), Vector(2.560, -130.413, 6), Vector(
+		3.008, 24.516, 7), Vector(2.576, -140.087, 8), Vector(3.152, -166.723, 9), Vector(2.240, 27.455, 10), Vector(3.024, -21.154,
+		11), Vector(2.304, -168.503, 12), Vector(1.536, 0, 13));
+	Global.Connections = Array(0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, False);
+	Global.Mission = Array(True, True, True, True, True, True, True, True, True, True, True, True, True, True, True);
+	Global.Prime = Array(11, 39, 51, 3, 51, 3, 17, 510, 51, 17, 3, True, 255, 255, True);
+	Global.AbilityCount = Array(False, 0, False, False, False, False, False, False, False, False, False, False, False, False, False);
+	Global.HiddenCP_TpRad_TT = Array(False, False, False, False, False, False, False, False, False, False, False, False, False, False,
+		False);
+	Global.TP = Array(False, 0, False, False, False, False, False, False, False, False, False, False, False, False, False);
+	Global.Effect = Array(False, 0, Array(Array(Vector(-0.773, 0.776, 3.282), 2, 2, 30)), False, Array(Array(Vector(-6.654, 8.018,
+		-10.314), 1.632, 2, -2)), False, Array(Array(Vector(4.231, 13.686, -5.423), 2, 2, 11)), Array(Array(Vector(41.023, 6.696,
+		-14.486), 1.008, 2, 3)), Array(Array(Vector(50.100, 5.872, 9.988), 1.552, 2, -3)), Array(Array(Vector(3.574, 14.691, -27.340),
+		2, 2, 11)), False, False, Array(Array(Vector(-12.885, 14.658, -10.145), 2, 2, -3)), Array(Array(Vector(11.936, 12.142, 21.009),
+		4.368, 2, -3)), False);
+}
