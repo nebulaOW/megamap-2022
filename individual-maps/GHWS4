@@ -1,0 +1,41 @@
+Hipposama & dreadowl
+Icon: Checkmark
+Color: Blue
+Name: The Menagerie
+
+variables
+{
+	global:
+		0: CPposition
+		1: Radius_VA_GoBackCP
+		2: Connections
+		3: Mission
+		4: Prime
+		5: AbilityCount
+		6: HiddenCP_TpRad_TT
+		7: TP
+		8: Effect
+}
+
+actions
+{
+	Global.CPposition = Array(Vector(29.296, 10.439, -3.648), Vector(-12.115, 1, 30.895), Vector(13.122, 7.053, -48.984), Vector(
+		-39.040, 1.169, -61.232), Vector(-13.277, 1, -33.334), Vector(5.198, 7.979, -10.253), Vector(61.696, -2.021, 13.122), Vector(
+		42.604, 0.288, 14.095), Vector(46.680, 6, -12.875), Vector(17.862, 3.083, 24.564), Vector(14.118, 0, -25.781), Vector(-2.413,
+		4, -64.069), Vector(-0.175, 7, -90.784), Vector(-5.297, -5.100, -70.293), Vector(-3.372, -1.904, -67.505), Vector(-16.886,
+		9.189, -90.758));
+	Global.Radius_VA_GoBackCP = Array(Vector(2.656, 0, -1), Vector(2, 122.531, 0), Vector(2.368, -90.110, 1), Vector(2, 42.259, 2),
+		Vector(2.384, 5.773, 3), Vector(2, 68.236, 4), Vector(2, -77.014, 5), Vector(2, -160.071, 6), Vector(2, -69.044, 7), Vector(2,
+		-179.182, 8), Vector(2, -155.424, 9), Vector(2.624, 176.226, 10), Vector(2.176, -13.271, 11), Vector(2.176, 33.300, 12),
+		Vector(2.176, -149.178, 13), Vector(2, 0, 14));
+	Global.Connections = Array(0, 2, 3, 4, Vector(0, 5, 0), 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, False);
+	Global.Mission = Array(True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True);
+	Global.Prime = Array(33, 221, 51, 15, 15, 5, 10, 3, 3, 15, 3, 15, 10, 6, 15, True);
+	Global.AbilityCount = Array(False, 0, False, False, False, False, False, False, False, False, False, False, False, False, False,
+		False);
+	Global.HiddenCP_TpRad_TT = Array(False, False, False, False, False, False, False, False, False, False, False, False, False, False,
+		False, False);
+	Global.TP = Array(False, 0, False, False, False, False, False, False, False, False, False, False, False, False, False, False);
+	Global.Effect = Array(False, False, False, False, False, False, False, False, False, False, False, False, False, False, False,
+		False);
+}
