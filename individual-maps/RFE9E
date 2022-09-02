@@ -1,0 +1,95 @@
+FatYoshi
+Icon: Skull
+Color: Black
+Name: Reaper's Flight
+Effects needed: Wrait form cooldown 75%
+variables
+{
+	player:
+		3: Level
+}
+
+rule("Reaper's Flight")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Is Hero Being Played(Hero(Reaper), All Teams) == True;
+		Is Using Ability 1(Event Player) == True;
+	}
+
+	actions
+	{
+		Apply Impulse(Event Player, Up, 15, To World, Cancel Contrary Motion);
+	}
+}
+
+rule("Change to reaper")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Event Player.Level == 1;
+	}
+
+	actions
+	{
+		Start Forcing Player To Be Hero(Event Player, Hero(Reaper));
+	}
+}
+
+
+
+
+
+
+
+variables
+{
+	global:
+		0: CPposition
+		1: Radius_VA_GoBackCP
+		2: Connections
+		3: Mission
+		4: Prime
+		5: AbilityCount
+		6: HiddenCP_TpRad_TT
+		7: TP
+		8: Effect
+}
+
+actions
+{
+	Global.CPposition = Array(Vector(29.302, 10.441, -3.816), Vector(13.075, 3.461, -43.760), Vector(31.741, 3.609, -16.066), Vector(
+		12.525, 6.747, -20.065), Vector(15.471, 4.159, -73.406), Vector(12.204, 7.053, -49.435), Vector(-6.594, 7.968, -10.953),
+		Vector(40.105, 6.080, -5.451), Vector(-18.928, -1.262, -17.590), Vector(-21.368, 3.950, -57.298), Vector(-9.887, 7.080,
+		-28.005), Vector(-1.694, 0.079, -71.569), Vector(22.542, -1.818, -42.394));
+	Global.Radius_VA_GoBackCP = Array(Vector(2, 0, -1), Vector(2, 120.498, 0), Vector(2, -151.749, 1), Vector(2, -167.816, 2), Vector(
+		2, -18.314, 3), Vector(2, -96.487, 4), Vector(2, -131.836, 5), Vector(2, -92.093, 6), Vector(2, 156.138, 7), Vector(2, -19.210,
+		8), Vector(2, 118.685, 9), Vector(2, 99.838, 10), Vector(2, 0, 11));
+	Global.Connections = Array(0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, False);
+	Global.Mission = Array(True, True, True, True, True, True, True, True, True, True, True, True, True);
+	Global.Prime = Array(11, 65, 5, True, 5, 5, 85, 85, 85, 85, 5, 85, True);
+	Global.AbilityCount = Array(False, 0, False, False, False, False, False, False, False, False, False, False, False);
+	Global.HiddenCP_TpRad_TT = Array(False, False, False, False, False, False, False, False, False, False, False, False, False);
+	Global.TP = Array(False, 0, False, False, False, False, False, False, False, False, False, False, False);
+	Global.Effect = Array(False, Array(Array(Vector(23.710, 9.811, -70.447), 2, 7, False), Array(Vector(31.446, 9.283, -67.947), 2, 7,
+		False)), False, False, False, Array(Array(Vector(-6.377, 15.151, -51.185), 2, 7, False), Array(Vector(-10.757, 14.006,
+		-34.481), 2.368, 7, False)), Array(Array(Vector(-4.392, 13.805, 12.729), 2.304, 2, -1), Array(Vector(-12.490, 14.085, 6.717),
+		2.512, 7, False)), Array(Array(Vector(17.339, 4.982, -7.232), 0.992, 2, -5), Array(Vector(8.377, 12.875, -13.848), 2.352, 7,
+		False)), Array(Array(Vector(-11.195, 8.581, -30.089), 2.384, 7, False), Array(Vector(4.223, 10.548, -36.745), 0.992, 2, -5),
+		Array(Vector(-6.113, 13.993, -45.889), 0.528, 2, -1)), Array(Array(Vector(-23.683, 10.514, -54.638), 0.608, 2, -5)), False,
+		Array(Array(Vector(17.629, 2.788, -67.844), 2, 2, -5)), False);
+}
