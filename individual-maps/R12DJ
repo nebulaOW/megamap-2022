@@ -1,0 +1,38 @@
+Geshem & Cmoiflo
+Icon: Poison
+Color: 169, 30, 20, 220
+Name: Brugbath
+
+variables
+{
+	global:
+		0: CPposition
+		1: Radius_VA_GoBackCP
+		2: Connections
+		3: Mission
+		4: Prime
+		5: AbilityCount
+		6: HiddenCP_TpRad_TT
+		7: TP
+		8: Effect
+}
+
+actions
+{
+	Global.CPposition = Array(Vector(29.324, 10.460, -3.854), Vector(15.534, 4.155, -73.230), Vector(-2.543, 5, -46.515), Vector(
+		-21.628, 4, -58.565), Vector(-10.007, 7.080, -28.027), Vector(46.521, 6, 11.587), Vector(13.273, 4.139, 10.121), Vector(-9.822,
+		7.035, -27.884), Vector(-36.751, 1, -63.606));
+	Global.Radius_VA_GoBackCP = Array(Vector(2.480, 0, -1), Vector(2.224, -21.171, 0), Vector(2.240, 102.200, 1), Vector(2.112,
+		-19.616, 2), Vector(2, 0, 3), Vector(2.320, -131.990, 4), Vector(2.320, -110.753, 5), Vector(2.192, -157.736, 6), Vector(2.080,
+		0, 7));
+	Global.Connections = Array(1, 2, 3, 4, 5, 6, 7, 8, False);
+	Global.Mission = Array(True, True, True, True, True, True, True, True, True);
+	Global.Prime = Array(3, 34, 51, 2, 51, 2, 51, 2, 7);
+	Global.AbilityCount = Array(False, False, False, False, False, False, False, False, False);
+	Global.HiddenCP_TpRad_TT = Array(False, False, False, False, False, False, Vector(0, 2, 0), False, False);
+	Global.TP = Array(False, False, False, False, False, False, Vector(13.230, 4.021, 7.241), False, False);
+	Global.Effect = Array(False, False, Array(Array(Vector(-5.438, 12.910, -49.356), -2.144, 2, 15), Array(Vector(-38.716, 8.726,
+		-65.040), -2, 2, 3)), False, Array(Array(Vector(4.908, 7.540, 14.137), 0.640, 1, False), Array(Vector(-1.642, 15.175, -24.249),
+		-3.344, 1, False), Array(Vector(-3.878, 7.895, 12.169), 1.560, 2, 5)), False, Array(Array(Vector(-4.025, 8.228, 12.532), 2, 2,
+		5), Array(Vector(5.366, 2.361, 14.125), -2.592, 1, False)), False, False);
+}
