@@ -1,0 +1,43 @@
+Lonepier & nebula
+Icon: Up Arrow
+Color: Purple
+Name HBH
+
+variables
+{
+	global:
+		0: CPposition
+		1: Radius_VA_GoBackCP
+		2: Connections
+		3: Mission
+		4: Prime
+		5: AbilityCount
+		6: HiddenCP_TpRad_TT
+		7: TP
+		8: Effect
+}
+
+actions
+{
+	Global.CPposition = Array(Vector(29.415, 10.437, -3.401), Vector(55.524, -1.670, 14.561), Vector(58.151, -0.716, -15.322), Vector(
+		56.378, 2, -26.369), Vector(36.649, -0.039, -9.412), Vector(17.828, 4.097, 9.059), Vector(-9.673, 4, 12.158), Vector(-9.689,
+		3.915, 22.398), Vector(6.109, 8.091, 12.231), Vector(28.310, 6.543, 11.167), Vector(3.266, 5, -69.968), Vector(2.802, 7,
+		-87.961), Vector(-16.758, -0.749, -90.937), Vector(9.461, 4.131, 9.923), Vector(7.089, 9.063, 14.671), Vector(11.098, 11.224,
+		21.050));
+	Global.Radius_VA_GoBackCP = Array(Vector(2, 0, -1), Vector(2, 0, 0), Vector(2, 0, 1), Vector(2.784, 0, 2), Vector(3.008, 0, 3),
+		Vector(3.632, 0, 4), Vector(1.872, 0, 5), Vector(1.568, 0, 6), Vector(2.320, 0, 7), Vector(1.568, 0, 8), Vector(2.480, 0, 9),
+		Vector(2, 0, 10), Vector(2.848, 0, 11), Vector(4.112, 0, 12), Vector(1.744, 0, 13), Vector(6.128, 0, 14));
+	Global.Connections = Array(0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, False);
+	Global.Mission = Array(True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True);
+	Global.Prime = Array(11, 2210, 10, 2, 3, 34, 2, 2, 2, 3, 34, 15, True, 2, 10, True);
+	Global.AbilityCount = Array(False, 0, False, False, False, False, False, False, False, False, False, False, False, False, False,
+		False);
+	Global.HiddenCP_TpRad_TT = Array(False, False, False, Vector(0, 2, 0), False, False, False, False, False, Vector(0, 2, 0), Vector(
+		0, 2, 0), False, Vector(0, 2, 0), Vector(0, 0, 0), False, False);
+	Global.TP = Array(False, 0, False, Vector(45.908, 1.994, -27.510), False, False, False, False, False, Vector(7.602, -1.438,
+		-51.363), Vector(7.113, 5, -66.493), False, Vector(-9.929, 7.080, -28.050), False, False, False);
+	Global.Effect = Array(False, Array(Array(Vector(60.927, 1.836, 4.282), 2.128, 2, -2), Array(Vector(50.388, 3.665, 13.471), 1.100,
+		5, 11), Array(Vector(65.301, 2.664, 4.507), 1.100, 6, 11)), False, False, False, Array(Array(Vector(5.370, 9.074, 12.615),
+		1.040, 2, 30)), False, False, False, False, False, False, Array(Array(Vector(-7.685, 0.565, -22.114), -2.496, 1, False)),
+		False, False, False);
+}
