@@ -1,0 +1,43 @@
+Exile & DiaZ
+Icon: Dizzy
+Color: Aqua
+Name: Sayonara Hanamura
+
+variables
+{
+	global:
+		0: CPposition
+		1: Radius_VA_GoBackCP
+		2: Connections
+		3: Mission
+		4: Prime
+		5: AbilityCount
+		6: HiddenCP_TpRad_TT
+		7: TP
+		8: Effect
+}
+
+actions
+{
+	Global.CPposition = Array(Vector(29.219, 10.462, -4.013), Vector(42.050, 1.624, -57.812), Vector(-19.439, 9.209, -76.587), Vector(
+		29.313, 10.460, -3.852), Vector(15.681, 12.014, 17.271), Vector(-18.857, 7.309, -85.529), Vector(12.990, 6.747, -19.550),
+		Vector(21.988, 0.414, -40.012), Vector(13.604, -0.979, -9.638), Vector(12.029, 11.724, 16.872));
+	Global.Radius_VA_GoBackCP = Array(Vector(3.061, 0, -1), Vector(2.117, -56.195, 0), Vector(2.512, -40.869, 1), Vector(2.944, 67.676,
+		2), Vector(2.544, 31.745, 3), Vector(2, -138.252, 4), Vector(2, -129.891, 5), Vector(2.704, 159.060, 6), Vector(1.888, 0, 7),
+		Vector(2, 0, 8));
+	Global.Connections = Array(0, 2, 3, 4, 5, 6, 7, 8, 9, False);
+	Global.Mission = Array(True, True, True, True, True, True, True, True, True, True);
+	Global.Prime = Array(11, 1105, 1, 85, 85, 170, 85, 255, 21, True);
+	Global.AbilityCount = Array(False, 0, False, False, False, False, False, False, False, False);
+	Global.HiddenCP_TpRad_TT = Array(False, False, False, False, False, False, False, Vector(0, 0, 0), Vector(0, 2, 0), False);
+	Global.TP = Array(False, 0, False, False, False, False, False, False, Vector(13.486, -0.979, -11.218), False);
+	Global.Effect = Array(False, Array(Array(Vector(9.236, 12.840, -29.430), -1.264, 2, 15), Array(Vector(-8.220, 11.505, -47.474), -2,
+		2, 3)), Array(Array(Vector(-38.244, 12.257, -63.633), 1.100, 5, 1), Array(Vector(13.557, 14.698, -25.198), 1.100, 6, 30)),
+		Array(Array(Vector(61.389, 9.158, 36.296), 1.100, 5, 10), Array(Vector(-10.230, 16.685, -47.644), 1.100, 6, 30), Array(Vector(
+		-12.604, 12.798, -28.688), -2, 2, 3)), Array(Array(Vector(11.486, -8.582, 39.632), -2, 2, 3), Array(Vector(-14.552, 13.888,
+		-1.855), 1.100, 5, 5), Array(Vector(-19.759, 8.691, -48.246), 1.100, 6, 30)), Array(Array(Vector(-8.551, -1.466, -76.829),
+		-1.568, 2, 15), Array(Vector(-12.273, 8.926, -92.621), 1.100, 5, 6), Array(Vector(7.221, 13.937, 13.039), 1.100, 6, 11)),
+		Array(Array(Vector(2.255, 20.585, -23.990), 2, 2, 10), Array(Vector(-13.450, 13.218, -8.182), -2, 2, 15), Array(Vector(2.341,
+		14.090, 9.458), -2.368, 2, 1)), Array(Array(Vector(31.616, 12.210, -39.051), 2, 2, 1), Array(Vector(13.957, 10.192, -87.394),
+		1.100, 5, 11), Array(Vector(1.508, 14.633, 13.413), 1.100, 6, 30)), False, False);
+}
