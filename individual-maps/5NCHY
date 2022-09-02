@@ -1,0 +1,50 @@
+Cmoiflo
+Icon: Radioactive
+Color: (255, 170, 220, 255)
+Name: Goodbye, MRD0D
+
+variables
+{
+	global:
+		0: CPposition
+		1: Radius_VA_GoBackCP
+		2: Connections
+		3: Mission
+		4: Prime
+		5: AbilityCount
+		6: HiddenCP_TpRad_TT
+		7: TP
+		8: Effect
+}
+
+actions
+{
+	Global.CPposition = Array(Vector(29.314, 10.460, -3.837), Vector(28.800, 10.414, 1.837), Vector(29.061, 10.423, -1.563), Vector(
+		28.808, 10.414, 1.857), Vector(29.056, 10.423, -1.563), Vector(28.817, 10.414, 1.839), Vector(29.074, 10.423, -1.563), Vector(
+		28.800, 10.414, 1.846), Vector(29.053, 10.423, -1.569), Vector(28.800, 10.414, 1.851), Vector(29.054, 10.421, -1.563), Vector(
+		28.798, 10.414, 1.837), Vector(29.069, 10.423, -1.563), Vector(28.801, 10.414, 1.837), Vector(29.051, 10.423, -1.564), Vector(
+		28.808, 10.414, 1.838), Vector(29.066, 10.423, -1.563), Vector(28.803, 10.414, 1.847), Vector(29.052, 10.423, -1.564), Vector(
+		28.803, 10.414, 1.851), Vector(29.059, 10.423, -1.571), Vector(28.811, 10.414, 1.838), Vector(29.067, 10.423, -1.563), Vector(
+		28.818, 10.414, 1.839), Vector(29.047, 10.423, -1.564), Vector(28.798, 10.414, 1.851), Vector(29.068, 10.423, -1.563), Vector(
+		28.806, 10.414, 1.838), Vector(29.050, 10.423, -1.564), Vector(28.803, 10.414, 1.837));
+	Global.Radius_VA_GoBackCP = Array(Vector(2.496, 0, -1), Vector(1.168, 0, 0), Vector(1.200, 0, 1), Vector(1.168, 0, 2), Vector(
+		1.200, 0, 3), Vector(1.200, 0, 4), Vector(1.200, 0, 5), Vector(1.200, 0, 6), Vector(1.200, 0, 7), Vector(1.200, 0, 8), Vector(
+		1.200, 0, 9), Vector(1.200, 0, 10), Vector(1.200, 0, 11), Vector(1.200, 0, 12), Vector(1.200, 0, 13), Vector(1.200, 0, 14),
+		Vector(1.200, 0, 15), Vector(1.200, 0, 16), Vector(1.200, 0, 17), Vector(1.200, 0, 18), Vector(1.200, 0, 19), Vector(1.200, 0,
+		20), Vector(1.200, 0, 21), Vector(1.200, 0, 22), Vector(1.200, 0, 23), Vector(1.200, 0, 24), Vector(1.200, 0, 25), Vector(
+		1.200, 0, 26), Vector(1.200, 0, 27), Vector(1.200, 0, 28));
+	Global.Connections = Array(0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28,
+		29, False);
+	Global.Mission = Array(True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True,
+		True, True, True, True, True, True, True, True, True, True, True, True);
+	Global.Prime = Array(33, 2730, 210, 210, 210, 210, 210, 210, 210, 210, 210, 210, 210, 210, 210, 210, 210, 210, 210, 210, 210, 210,
+		210, 210, 210, 210, 210, 210, 210, 7);
+	Global.AbilityCount = Array(False, 0, False, False, False, False, False, False, False, False, False, False, False, False, False,
+		False, False, False, False, False, False, False, False, False, False, False, False, False, False, False);
+	Global.HiddenCP_TpRad_TT = Array(False, False, False, False, False, False, False, False, False, False, False, False, False, False,
+		False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False);
+	Global.TP = Array(False, 0, False, False, False, False, False, False, False, False, False, False, False, False, False, False,
+		False, False, False, False, False, False, False, False, False, False, False, False, False, False);
+	Global.Effect = Array(False, 0, False, False, False, False, False, False, False, False, False, False, False, False, False, False,
+		False, False, False, False, False, False, False, False, False, False, False, False, False, False);
+}
