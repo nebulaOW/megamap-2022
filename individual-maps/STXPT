@@ -1,0 +1,49 @@
+SirVitek
+Icon: Heart
+Color: Pink
+Name: Goodbye Doom Parkour
+
+variables
+{
+	global:
+		0: CPposition
+		1: Radius_VA_GoBackCP
+		2: Connections
+		3: Mission
+		4: Prime
+		5: AbilityCount
+		6: HiddenCP_TpRad_TT
+		7: TP
+		8: Effect
+}
+
+actions
+{
+	Global.CPposition = Array(Vector(6.118, 7.877, -8.222), Vector(-15.432, -1.066, -34.406), Vector(-8.711, 2.579, -76.913), Vector(
+		-18.182, -1.239, -35.838), Vector(-16.551, 4.047, 11.011), Vector(61.412, 0.419, 35.536), Vector(32.486, 0.043, -11.323),
+		Vector(5.956, 7.785, -4.491), Vector(-20.495, 3.100, -49.051), Vector(12.960, 0.007, -20.098), Vector(28.566, 10.443, 4.207),
+		Vector(-0.617, 5.004, -39.614), Vector(41.944, 1.669, -57.474), Vector(-5.549, -0.935, -79.386), Vector(-12.075, 7.266,
+		-93.523), Vector(5.907, 7.972, -8.291));
+	Global.Radius_VA_GoBackCP = Array(Vector(2, -129.331, -1), Vector(2, -153.787, 0), Vector(2, 1.115, 1), Vector(2, 0, 2), Vector(2,
+		76.344, 3), Vector(2, 174.512, 4), Vector(2, 5.383, 5), Vector(2, -147.431, 6), Vector(2, 10.613, 7), Vector(2, 1.890, 8),
+		Vector(2, -95.773, 9), Vector(2, 114.818, 10), Vector(2, -154.786, 11), Vector(2, 0, 12), Vector(2, 53.646, 13), Vector(2, 0,
+		14));
+	Global.Connections = Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, False);
+	Global.Mission = Array(True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True);
+	Global.Prime = Array(255, 102, 102, 255, 85, 85, 1, 5, 51, 51, 3, 15, 51, 15, True, True);
+	Global.AbilityCount = Array(False, False, False, False, False, False, False, False, False, False, False, False, False, False,
+		False, False);
+	Global.HiddenCP_TpRad_TT = Array(False, Vector(0, 2, 0), False, Vector(0, 2, 0), False, Vector(0, 2, 0), False, Vector(0, 2, 0),
+		False, False, False, False, False, Vector(0, 2, 0), False, False);
+	Global.TP = Array(False, Vector(-16.240, -1.066, -35.999), False, Vector(-18.827, -1.239, -35.656), False, Vector(61.816, -1.967,
+		24.540), False, Vector(12.767, -1.266, 38.570), False, False, False, False, False, Vector(-8.767, -5.010, -69.403), False,
+		False);
+	Global.Effect = Array(Array(Array(Vector(-12.088, 14.890, -23.880), 1.040, 2, 30)), Array(Array(Vector(-21.972, -0.302, -47.575),
+		2, 2, 5)), Array(Array(Vector(-8.591, 2.325, -70.488), 1.248, 2, 15), Array(Vector(-23.044, -0.676, -48.426), 0.816, 2, -6)),
+		Array(Array(Vector(-20.999, -7.811, -36.560), 0.896, 2, 3)), Array(Array(Vector(40.160, 11.598, -7.947), 0.288, 2, 3)), Array(
+		Array(Vector(60.702, 8.409, 3.053), 0.720, 2, 3), Array(Vector(61.803, 6.327, -1.725), 0.064, 2, 10)), Array(Array(Vector(
+		35.909, 3.599, 27.599), 1.100, 5, 11), Array(Vector(17.756, 11.287, -19.838), 1.100, 6, 11), Array(Vector(26.773, -1.902,
+		-3.681), -2.944, 1, False)), False, Array(Array(Vector(-0.228, 1.080, -15.064), 1.008, 2, 30)), False, Array(Array(Vector(
+		-4.420, 26.469, 1.204), -3.120, 3, -3)), False, Array(Array(Vector(1.952, 4.001, -87.004), 0.992, 2, 10), Array(Vector(9.829,
+		4.024, -78.851), 1.056, 2, 30)), False, False, False);
+}
