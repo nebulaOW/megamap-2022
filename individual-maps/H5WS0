@@ -1,0 +1,46 @@
+Mocking
+Icon: Spiral
+Color: (39, 80, 245, 255)
+Name: The Ultimate Doomfist Experience
+Effects needed: ultimate with orbs/reset and not full reset
+Diff Y81AP to KNEAT for changes
+
+variables
+{
+	global:
+		0: CPposition
+		1: Radius_VA_GoBackCP
+		2: Connections
+		3: Mission
+		4: Prime
+		5: AbilityCount
+		6: HiddenCP_TpRad_TT
+		7: TP
+		8: Effect
+}
+
+actions
+{
+	Global.CPposition = Array(Vector(29.270, 10.438, -3.518), Vector(28.106, 6.529, 10.801), Vector(-0.486, 1, -11.216), Vector(13.071,
+		7.071, -48.811), Vector(27.384, 2, -33.558), Vector(-4.967, 5, -35.824), Vector(-37.316, 1, -62.373), Vector(11.881, 11.687,
+		16.987), Vector(47.883, 6, 10.025), Vector(73.040, 3.102, -20.991), Vector(29.266, 10.458, -3.754));
+	Global.Radius_VA_GoBackCP = Array(Vector(2, 0, -1), Vector(2.128, 133.105, 0), Vector(1.936, 0, 1), Vector(2.192, 127.881, 2),
+		Vector(2.176, -89.687, 3), Vector(2.544, -2.648, 4), Vector(2.352, -72.504, 5), Vector(2.304, 97.333, 6), Vector(2.512, 75.855,
+		7), Vector(2.112, 134.484, 8), Vector(2.192, 0, 9));
+	Global.Connections = Array(0, 2, 3, 4, 5, 6, 7, 8, 9, 10, False);
+	Global.Mission = Array(True, True, True, True, True, True, True, True, True, True, True);
+	Global.Prime = Array(11, 6630, 510, 255, 17, 510, 510, 510, 85, 170, True);
+	Global.AbilityCount = Array(False, 0, False, False, False, False, False, False, False, False, False);
+	Global.HiddenCP_TpRad_TT = Array(False, False, False, False, False, False, False, False, Vector(0, 2.256, 0), False, False);
+	Global.TP = Array(False, 0, False, False, False, False, False, False, Vector(49.273, 6, 10.100), False, False);
+	Global.Effect = Array(False, Array(Array(Vector(41.456, 11.276, -1.903), 2, 2, 3)), Array(Array(Vector(-4.014, 21.904, -6.024),
+		1.472, 2, 15), Array(Vector(2.453, 14.152, -28.572), 1.808, 2, -30)), Array(Array(Vector(27.577, 7.215, -60.052), 1.760, 2,
+		15), Array(Vector(47.024, 14.506, -64.630), 2.192, 2, -30), Array(Vector(36.178, 7.317, -46.643), 1.808, 2, 6)), Array(Array(
+		Vector(22.657, 2.384, -33.301), 2, 2, -30), Array(Vector(-3.117, 10.576, -33.840), 2, 2, 6)), Array(Array(Vector(-4.278,
+		24.481, -40.958), 1.792, 2, 15)), Array(Array(Vector(-51.129, -1.498, -56.230), 2.496, 2, -30), Array(Vector(-49.623, -3.640,
+		-33.504), 2.896, 2, -30), Array(Vector(-45.943, -0.713, -14.434), 1.100, 5, 11), Array(Vector(11.897, 14.095, 17.344), 1.100,
+		6, 11)), Array(Array(Vector(23.733, 19.854, 15.298), 1.824, 2, 15)), Array(Array(Vector(68.766, 13.684, 15.595), 1.100, 5, 6),
+		Array(Vector(42.407, 16.917, -16.164), 1.100, 6, 11), Array(Vector(52.803, 14.184, -15.721), 2, 2, -30), Array(Vector(68.705,
+		2.857, -14.561), -2.800, 3, 11)), Array(Array(Vector(69.757, -0.234, -16.321), -3.072, 3, -30), Array(Vector(52.446, 14.056,
+		-15.211), 2.240, 2, 15), Array(Vector(28.660, 17.971, -0.585), 2.240, 2, 6)), False);
+}
