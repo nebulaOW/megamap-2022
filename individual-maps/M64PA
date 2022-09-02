@@ -1,0 +1,40 @@
+Odalv & BakonySan
+Icon: Heart
+Color: (255, 127, 127, 255)
+Name: Odalv x bakony loves you <3
+
+
+
+variables
+{
+	global:
+		0: CPposition
+		1: Radius_VA_GoBackCP
+		2: Connections
+		3: Mission
+		4: Prime
+		5: AbilityCount
+		6: HiddenCP_TpRad_TT
+		7: TP
+		8: Effect
+}
+
+actions
+{
+	Global.CPposition = Array(Vector(29.231, 10.440, -3.729), Vector(22.805, 0, -3.725), Vector(23.677, 6, 10.611), Vector(5.546,
+		8.042, -11.356), Vector(-12.864, 1.144, -29.623), Vector(2.187, 5.061, -40.994), Vector(13.089, 7.053, -48.844), Vector(14.744,
+		4, -73.825), Vector(-3.003, 2.540, -82.514), Vector(-8.563, 2.540, -76.871), Vector(-19.469, 7.222, -86.245), Vector(-2.829,
+		2.540, -82.556), Vector(9.733, 7.010, -82.295));
+	Global.Radius_VA_GoBackCP = Array(Vector(2, 0, -1), Vector(2, 0, 0), Vector(2, 0, 1), Vector(2, 0, 2), Vector(3.008, 0, 3), Vector(
+		2, 0, 4), Vector(2, 0, 5), Vector(2, 0, 6), Vector(2, 0, 7), Vector(2, 0, 8), Vector(3.744, 0, 9), Vector(2, 0, 10), Vector(2,
+		0, 11));
+	Global.Connections = Array(0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, False);
+	Global.Mission = Array(True, True, True, True, True, True, True, True, True, True, True, True, True);
+	Global.Prime = Array(11, 13, 3, 3, 2, True, 3, True, 3, 2, True, True, True);
+	Global.AbilityCount = Array(False, 0, False, False, False, False, False, False, False, False, False, False, False);
+	Global.HiddenCP_TpRad_TT = Array(False, False, False, False, Vector(0, 2, 0), False, Vector(0, 2, 0), Vector(0, 0, 0), Vector(0, 2,
+		0), False, Vector(0, 2, 0), False, False);
+	Global.TP = Array(False, 0, False, False, Vector(-12.638, 1, -31.550), False, Vector(13.738, 7.053, -48.879), False, Vector(-3.779,
+		2.540, -81.833), False, Vector(-18.709, 7.275, -85.387), False, False);
+	Global.Effect = Array(False, 0, False, False, False, False, False, False, False, False, False, False, False);
+}
